@@ -20,12 +20,12 @@ function iLoveTheBeatles(number){
   var theBeatle=[];
   //var i = 0;
   if(number < 17){
-  do{
-    theBeatle.push("I love the Beatles!");
-  }
-  while(theBeatle.length - 1 < number)
-  
-  return theBeatle;
+    do{
+      theBeatle.push("I love the Beatles!");
+    }
+    while(theBeatle.length - 1 < number)
   }
   else theBeatle.push("I love the Beatles!");
+  
+  return theBeatle;
 }
