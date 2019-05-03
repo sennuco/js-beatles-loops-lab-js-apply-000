@@ -18,7 +18,6 @@ function johnLennonFacts(facts){
 }
 function iLoveTheBeatles(number){
   var theBeatle=[];
-  //var i = 0;
   if(number < 17){
     do{
       theBeatle.push("I love the Beatles!");
